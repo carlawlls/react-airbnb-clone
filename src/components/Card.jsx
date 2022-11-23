@@ -2,16 +2,17 @@ import React from 'react'
 
 function Card() {
   return (
-    <section className='card'>
-      <img className="card--img" src="./src/images/card.png" />
-      <div className="review">
-        <img className="card--star" src="./src/images/star.png" />
-        <p className='rating'>5.0</p>
-        <p className='count'>(6)</p>
-      </div>
-      <p>Life lessons with Katie</p>
-      <p className='price'>From 136$ / person</p>
-    </section>
+    <div className="card">
+        <img src="./src/images/card.png" className="card--image" />
+        <div className="card--stats">
+            <img src="./src/images/star.png" className="card--star" />
+            <span>5.0</span>
+            <span className="gray">(6) • </span>
+            <span className="gray">USA</span>
+        </div>
+        <p>Life Lessons with Katie Zaferes</p>
+        <p><span className="bold">From $136</span> / person</p>
+    </div>
   )
 }
 
