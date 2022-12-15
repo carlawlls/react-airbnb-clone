@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react"
 
-function Card(props) {
+export default function Card(props) {
   return (
       <div className="card">
           <img src={`./src/images/${props.img}`} className="card--image" />
@@ -15,5 +15,3 @@ function Card(props) {
       </div>
   )
 }
-
-export default Card
