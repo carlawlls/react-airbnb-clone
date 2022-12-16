@@ -25,7 +25,9 @@ export default function App() {
     <div>
         <Navbar />
         <Hero />
-        {cards}
+        <div className="cards">
+          {cards}
+        </div>
     </div>
   )
 }
