@@ -81,6 +81,10 @@ section {
   margin-bottom: 9px;
 }
 
+.card--text {
+  text-align: left;
+}
+
 .card--title {
   overflow: hidden;
   text-overflow: ellipsis;
