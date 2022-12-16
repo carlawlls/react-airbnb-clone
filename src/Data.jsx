@@ -42,7 +42,7 @@ export default [
     id: 4,
     title: "Become A Sushi Chef",
     description: "Learn how to make authentic Japanese sushi",
-    price: 80,
+    price: 110,
     coverImg: "sushi.png",
     stats: {
         rating: 4.9,
@@ -55,11 +55,11 @@ export default [
   id: 5,
   title: "Bar Hopping in Milan",
   description: "Experience the nightlife in Milan like a local",
-  price: 40,
+  price: 65,
   coverImg: "milan.png",
   stats: {
       rating: 4.5,
-      reviewCount: 5
+      reviewCount: 28
   },
   location: "Italy",
   openSpots: 6,
@@ -68,11 +68,11 @@ export default [
   id: 6,
   title: "Amsterdam Canal Tour",
   description: "Discover the picturesque cityscape of Amsterdam",
-  price: 38,
+  price: 59,
   coverImg: "amsterdam.png",
   stats: {
       rating: 4.8,
-      reviewCount: 7
+      reviewCount: 63
   },
   location: "Netherlands",
   openSpots: 10,
@@ -81,11 +81,11 @@ export default [
   id: 7,
   title: "Gyoza Night",
   description: "Cook homemade gyoza with a family",
-  price: 70,
+  price: 80,
   coverImg: "gyoza.png",
   stats: {
       rating: 4.9,
-      reviewCount: 4
+      reviewCount: 7
   },
   location: "Japan",
   openSpots: 2,
