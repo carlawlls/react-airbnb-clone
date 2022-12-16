@@ -37,5 +37,57 @@ export default [
       },
       location: "Norway",
       openSpots: 3,
-  }
+  },
+  {
+    id: 4,
+    title: "Become A Sushi Chef",
+    description: "Learn how to make authentic Japanese sushi",
+    price: 80,
+    coverImg: "sushi.png",
+    stats: {
+        rating: 4.9,
+        reviewCount: 4
+    },
+    location: "Japan",
+    openSpots: 2,
+},
+{
+  id: 5,
+  title: "Bar Hopping in Milan",
+  description: "Experience the nightlife in Milan like a local",
+  price: 40,
+  coverImg: "milan.png",
+  stats: {
+      rating: 4.5,
+      reviewCount: 5
+  },
+  location: "Italy",
+  openSpots: 6,
+},
+{
+  id: 6,
+  title: "Amsterdam Canal Tour",
+  description: "Discover the picturesque cityscape of Amsterdam",
+  price: 38,
+  coverImg: "amsterdam.png",
+  stats: {
+      rating: 4.8,
+      reviewCount: 7
+  },
+  location: "Netherlands",
+  openSpots: 10,
+},
+{
+  id: 7,
+  title: "Gyoza Night",
+  description: "Cook homemade gyoza with a family",
+  price: 70,
+  coverImg: "gyoza.png",
+  stats: {
+      rating: 4.9,
+      reviewCount: 4
+  },
+  location: "Japan",
+  openSpots: 2,
+}
 ]
