@@ -47,10 +47,13 @@ section {
 
 .hero--header {
   margin-bottom: 16px;
+  font-size: 40px;
 }
 
 .hero--text {
   margin-top: 0;
+  font-size: 24px;
+  font-weight: 100;
 }
 
 .cards-list {
