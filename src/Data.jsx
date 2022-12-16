@@ -75,7 +75,7 @@ export default [
       reviewCount: 63
   },
   location: "Netherlands",
-  openSpots: 10,
+  openSpots: 0,
 },
 {
   id: 7,
